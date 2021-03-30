@@ -15,7 +15,7 @@
       "title": "Dress 2",
       "description": "about dress 1",
 
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": ["XL", "XXL"],
       "price": 18.9
     },
     {
@@ -24,7 +24,7 @@
       "title": "Dress 3",
       "description": "about dress 1",
 
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": ["L", "XL"],
       "price": 10.9
     },
     {
@@ -33,7 +33,7 @@
       "title": "Dress 4",
       "description": "about dress 1",
 
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": ["X", "XL", "XXL"],
       "price": 12
     },
     {
@@ -42,7 +42,7 @@
       "title": "Dress 5",
       "description": "about dress 1",
 
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": ["XXL"],
       "price": 20.9
     },
     {
@@ -51,7 +51,7 @@
       "title": "Dress 6",
       "description": "about dress 1",
 
-      "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableSizes": ["XXL"],
       "price": 33.9
     }
   ]
