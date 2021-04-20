@@ -12,7 +12,7 @@
     {
       "_id": "dress2",
       "image": "/images/dress2.jpg",
-      "title": "Dress 2",
+      "title": "sunflower",
       "description": "about dress 1",
 
       "availableSizes": ["XL", "XXL"],
@@ -21,7 +21,7 @@
     {
       "_id": "dress3",
       "image": "/images/dress3.jpg",
-      "title": "Dress 3",
+      "title": "flair",
       "description": "about dress 1",
 
       "availableSizes": ["L", "XL"],
@@ -30,7 +30,7 @@
     {
       "_id": "dress4",
       "image": "/images/dress4.jpg",
-      "title": "Dress 4",
+      "title": "beauty-sunrise",
       "description": "about dress 1",
 
       "availableSizes": ["X", "XL", "XXL"],
@@ -39,7 +39,7 @@
     {
       "_id": "dress5",
       "image": "/images/dress5.jpg",
-      "title": "Dress 5",
+      "title": "Midi-shorts",
       "description": "about dress 1",
 
       "availableSizes": ["XXL"],
@@ -48,7 +48,7 @@
     {
       "_id": "dress6",
       "image": "/images/dress6.jpg",
-      "title": "Dress 6",
+      "title": "blueflower-butterfly",
       "description": "about dress 1",
 
       "availableSizes": ["XXL"],
