@@ -8,11 +8,17 @@ class App extends React.Component {
     super();
     this.state = {
       products: data.products,
-      carttItems: [],
+      carttItems: localStorage.getItem("carttItems")
+        ? JSON.parse(localStorage.getItem("carttItems"))
+        : [],
+
       size: "",
       sort: "",
     };
   }
+  createOrder = (order) => {
+    alert("Need to save order for" + order.name);
+  };
   addToCart = (product) => {
     console.log(product);
     console.log(this.state.carttItems);
@@ -33,10 +39,17 @@ class App extends React.Component {
   };
   //how this condition is working
   removeFromCart = (product) => {
+    console.log(product);
+    console.log(this.state.carttItems);
     const carttItems = this.state.carttItems.slice();
+    console.log(carttItems);
     this.setState({
       carttItems: carttItems.filter((v) => v._id !== product._id),
     });
+    localStorage.setItem(
+      "carttItems",
+      JSON.stringify(carttItems.filter((v) => v._id !== product._id))
+    );
   };
   sortProducts = (event) => {
     const sort = event.target.value;
@@ -105,6 +118,7 @@ class App extends React.Component {
               <Cart
                 carttItems={this.state.carttItems}
                 removeFromCart={this.removeFromCart}
+                createOrder={this.createOrder}
               />
             </div>
           </div>
